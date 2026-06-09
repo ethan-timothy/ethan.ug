@@ -1,0 +1,28 @@
+recentPosts:
+  other: "Recente berichten"
+toggleTheme:
+  other: "Thema wisselen"
+contact:
+  other: "Contact"
+socials:
+  other: "Socials"
+language:
+  other: "Taal"
+contactName:
+  other: "Naam"
+contactEmail:
+  other: "E-mail"
+contactMessage:
+  other: "Bericht"
+contactSend:
+  other: "Verstuur bericht"
+contactSuccess:
+  other: "Bericht verzonden! Ik neem snel contact met je op."
+contactError:
+  other: "Er ging iets mis. Probeer het later opnieuw."
+contactCaptcha:
+  other: "Voltooi de verificatie."
+contactRateLimit:
+  other: "Je hebt de limiet van 3 berichten per 24 uur bereikt. Probeer het later opnieuw."
+contactRateLimitNotice:
+  other: "Je kunt maximaal 3 berichten per 24 uur versturen."

@@ -1,0 +1,36 @@
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>{{ i18n "socials" }}</h3>
+      <nav class="footer-nav">
+        <a href="https://github.com/ethan-timothy/" target="_blank" rel="noopener" class="footer-icon-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://mas.to/@ethan256" target="_blank" rel="me" class="footer-icon-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M433 179.1c0-97.2-63.7-125.7-63.7-125.7-62.5-28.7-228.6-28.4-290.5 0 0 0-63.7 28.5-63.7 125.7 0 115.7-6.6 259.4 105.6 289.1 40.5 10.7 75.3 13 103.3 11.4 50.8-2.8 79.3-18.1 79.3-18.1l-1.7-36.9s-36.3 11.4-77.1 10.1c-40.4-1.4-83-4.4-89.6-54-.6-4.6-.9-9.3-.9-13.9 85.6 20.9 158.7 9.1 178.7 6.7 56.1-6.7 105-41.3 111.2-72.9 9.8-49.8 9-121.5 9-121.5zM357.9 304.3l-46.6 0 0-114.2c0-49.7-64-51.6-64 6.9l0 62.5-46.3 0 0-62.5c0-58.5-64-56.6-64-6.9l0 114.2-46.7 0c0-122.1-5.2-147.9 18.4-175 25.9-28.9 79.8-30.8 103.8 6.1l11.6 19.5 11.6-19.5c24.1-37.1 78.1-34.8 103.8-6.1 23.7 27.3 18.4 53 18.4 175l0 0z"/></svg> 
+          Mastodon
+        </a>
+        <a href="{{ "/contact/" | relLangURL }}" class="footer-icon-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          {{ i18n "contact" }}
+        </a>
+      </nav>
+    </div>
+    <div class="footer-section">
+      <!-- <h3>{{ i18n "language" }}</h3>
+      <nav class="footer-nav">
+        {{ range .AllTranslations -}}
+        {{ if eq .Language.Lang $.Language.Lang -}}
+        <span class="lang-active">{{ .Language.LanguageName }}</span>
+        {{ else -}}
+        <a href="{{ .Permalink }}" data-lang="{{ .Language.Lang }}" onclick='document.cookie="lang_pref={{ .Language.Lang }};max-age=31536000;path=/;samesite=lax"'>{{ .Language.LanguageName }}</a>
+        {{ end -}}
+        {{ end }}
+      </nav> -->
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}</p>
+  </div>
+</footer>

@@ -1,0 +1,64 @@
+baseURL = 'https://raaijmakers.it/'
+theme = 'raaijmakers'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+disableHugoGeneratorInject = true
+
+[params]
+  avatar = "/images/avatar.jpeg"
+  turnstileSiteKey = "0x4AAAAAACZflXFsMFFLwiVa"
+  author = "Ethan Timothy"
+  images = ["/images/avatar.jpg"]
+
+  [languages]
+  [languages.en]
+    languageCode = 'en-us'
+    languageName = 'English'
+    weight = 1
+    title = 'Ethan Timothy'
+    [languages.en.params]
+      description = "Personal Portfolio and website of Ethan Timothy, a Social Media Specialist & Frontend Developer from Kiboga, Uganda. I manage media accounts and also build professional websites"
+    [languages.en.params.profileMode]
+      title = "Wandaye Ethan Timothy"
+      subtitle = "Social Media Specialist & Frontend Developer from Kiboga, Uganda. I manage media accounts and also build professional websites."
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "All-Projects"
+      url = "/posts/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 3
+
+  [languages.nl]
+    languageCode = 'nl'
+    languageName = 'Nederlands'
+    weight = 2
+    title = 'Raaijmakers'
+    [languages.nl.params]
+      description = "Persoonlijke blog en website van Kevin Raaijmakers, een IT-enthousiasteling uit 's-Hertogenbosch, Nederland. Over webontwikkeling, self-hosting en domotica."
+    [languages.nl.params.profileMode]
+      title = "Kevin Raaijmakers"
+      subtitle = "IT-enthousiasteling uit 's-Hertogenbosch, Nederland. Ik bouw graag dingen en zoek uit hoe ze werken."
+    [[languages.nl.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.nl.menu.main]]
+      name = "Blog"
+      url = "/posts/"
+      weight = 2
+    [[languages.nl.menu.main]]
+      name = "Over mij"
+      url = "/about/"
+      weight = 3
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  

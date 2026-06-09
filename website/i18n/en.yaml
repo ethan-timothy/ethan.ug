@@ -1,0 +1,28 @@
+recentPosts:
+  other: "Ongoing Projects"
+toggleTheme:
+  other: "Toggle theme"
+contact:
+  other: "Contact"
+socials:
+  other: "Socials"
+language:
+  other: "Language"
+contactName:
+  other: "Name"
+contactEmail:
+  other: "Email"
+contactMessage:
+  other: "Message"
+contactSend:
+  other: "Send message"
+contactSuccess:
+  other: "Message sent! I'll get back to you soon."
+contactError:
+  other: "Something went wrong. Please try again later."
+contactCaptcha:
+  other: "Please complete the verification."
+contactRateLimit:
+  other: "You have reached the limit of 3 messages per 24 hours. Please try again later."
+contactRateLimitNotice:
+  other: "You can send up to 3 messages per 24 hours."

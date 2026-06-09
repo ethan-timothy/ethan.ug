@@ -1,0 +1,7 @@
+name = "Raaijmakers"
+license = "MIT"
+licenselink = ""
+description = "A warm, personal Hugo theme"
+
+[author]
+  name = "Kevin Raaijmakers"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All-Activities on Ethan Timothy</title>
+    <link>http://localhost:1313/all-activities/</link>
+    <description>Recent content in All-Activities on Ethan Timothy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 19:36:03 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/all-activities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maintaining the Kastklimmers website</title>
+      <link>http://localhost:1313/all-activities/maintaing-kast-klimmers-website/</link>
+      <pubDate>Wed, 11 Mar 2026 19:36:03 +0100</pubDate>
+      <guid>http://localhost:1313/all-activities/maintaing-kast-klimmers-website/</guid>
+      <description>&lt;p&gt;I am currently building &amp;amp; maintaining the Kastklimmers website (&lt;a href=&#34;https://kastklimmers.nl&#34;&gt;https://kastklimmers.nl&lt;/a&gt;). If your interested in tree climbers, please give them a call.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
