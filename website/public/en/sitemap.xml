@@ -8,13 +8,13 @@
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="nl"
-                href="http://localhost:1313/nl/"
+                hreflang="en-us"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/"
+                hreflang="nl"
+                href="http://localhost:1313/nl/"
                 />
   </url><url>
     <loc>http://localhost:1313/posts/uganda-verrified/</loc>
@@ -71,13 +71,13 @@
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="nl"
-                href="http://localhost:1313/nl/categories/"
+                hreflang="en-us"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/categories/"
+                hreflang="nl"
+                href="http://localhost:1313/nl/categories/"
                 />
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
@@ -89,13 +89,13 @@
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="nl"
-                href="http://localhost:1313/nl/tags/"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/"
+                hreflang="nl"
+                href="http://localhost:1313/nl/tags/"
                 />
   </url>
 </urlset>

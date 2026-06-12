@@ -1,82 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ethan Timothy</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Ethan Timothy</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2026 19:36:03 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Helping verify legit Ugandan Mastodon users</title>
-      <link>http://localhost:1313/posts/uganda-verrified/</link>
-      <pubDate>Sun, 26 Apr 2026 19:36:03 +0100</pubDate>
-      <guid>http://localhost:1313/posts/uganda-verrified/</guid>
-      <description>&lt;p&gt;Since, early this year, there have been lots of complains on the fediverse(mastodon), where more than one person complained due to constant demand for money after connecting with Ugandan farmers on mastodon.&lt;/p&gt;&#xA;&lt;p&gt;This annoys to see that even genuine people, orgs and projects can be all grouped under the scam umbrella, so thats why I opt to start building the Uganda-Verrified platform.&lt;/p&gt;&#xA;&lt;p&gt;Stay tuned, I will let you know once its out!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Building the TreeMinded website</title>
-      <link>http://localhost:1313/posts/maintaning-treeminded-website/</link>
-      <pubDate>Mon, 30 Mar 2026 19:36:03 +0100</pubDate>
-      <guid>http://localhost:1313/posts/maintaning-treeminded-website/</guid>
-      <description>&lt;p&gt;Boom! This was my first website, I am so proud of them, for trusting me to deliver there website.&#xA;I currently still maintain the website.&lt;/p&gt;&#xA;&lt;p&gt;Do you want to check them out? 👉 &lt;a href=&#34;https://treeminded.nl&#34;&gt;https://treeminded.nl&lt;/a&gt;. They will take care of your trees or even the entire forest.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Maintaining the Kastklimmers website</title>
-      <link>http://localhost:1313/posts/maintaing-kast-klimmers-website/</link>
-      <pubDate>Wed, 11 Mar 2026 19:36:03 +0100</pubDate>
-      <guid>http://localhost:1313/posts/maintaing-kast-klimmers-website/</guid>
-      <description>&lt;p&gt;I am currently building &amp;amp; maintaining the Kastklimmers website (&lt;a href=&#34;https://kastklimmers.nl&#34;&gt;https://kastklimmers.nl&lt;/a&gt;). If your interested in tree climbers, please give them a call.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Marketing at Game Limiter</title>
-      <link>http://localhost:1313/posts/marketing-at-gamelimiter/</link>
-      <pubDate>Tue, 03 Mar 2026 19:36:03 +0100</pubDate>
-      <guid>http://localhost:1313/posts/marketing-at-gamelimiter/</guid>
-      <description>&lt;p&gt;I am currently working with the GameLimiter markerting team. I am using the LinkedIn and Facebook to boost their online visibility.&lt;/p&gt;&#xA;&lt;p&gt;I believe in their vision i.e. Controlled Gaming really matters. Its not by force, but with daily routines and descipline.&lt;/p&gt;&#xA;&lt;p&gt;I also believe life behind screens in beautiful 🌱&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Building the EHS website</title>
-      <link>http://localhost:1313/posts/extreme-high-school-website/</link>
-      <pubDate>Sat, 28 Feb 2026 19:36:03 +0100</pubDate>
-      <guid>http://localhost:1313/posts/extreme-high-school-website/</guid>
-      <description>&lt;p&gt;For the betterness of Extreme High School Namayumba, my former school that helped me aquire free education, I am opting to volunteer and build them a good quality professional responsive website.&lt;/p&gt;&#xA;&lt;p&gt;Wanna know more about this EHS, I got you sorted, find thir website here soon&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Growing the VoedselbosKabouters Mastodon activity</title>
-      <link>http://localhost:1313/posts/voedselboskabouters-mastodon/</link>
-      <pubDate>Sat, 19 Apr 2025 19:36:03 +0100</pubDate>
-      <guid>http://localhost:1313/posts/voedselboskabouters-mastodon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Managing Squads B.V. Social Pages</title>
-      <link>http://localhost:1313/posts/squads-bv-mastodon/</link>
-      <pubDate>Sat, 11 Jan 2025 19:36:03 +0100</pubDate>
-      <guid>http://localhost:1313/posts/squads-bv-mastodon/</guid>
-      <description>&lt;p&gt;I am currently managing Squads BV&amp;rsquo;s Mastodon and Reddit presence, engaging with communities, growing brand awareness, and building meaningful connections with users.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Leading the SSN Project</title>
-      <link>http://localhost:1313/posts/sustainable-schools-network/</link>
-      <pubDate>Mon, 01 Jan 2024 19:36:03 +0100</pubDate>
-      <guid>http://localhost:1313/posts/sustainable-schools-network/</guid>
-      <description>&lt;p&gt;The Sustainable Schools Network is a Community Based Organisation in Central Uganda, focusing on promoting sustainable agriculture, environmental conservation and ecological literacy in Schools.&lt;/p&gt;&#xA;&lt;p&gt;Through the SSN-Project, I and my partners-in-crime do visit schools and hold a number of programs.&lt;/p&gt;&#xA;&lt;p&gt;Please read about them on their &lt;a href=&#34;https://mas.to/@sustainable_schools&#34;&gt;Mastodon Page&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I am Ethan Timothy, a Social Media Specialist &amp;amp; Frontend Developer from Kiboga, Uganda. I manage media accounts and also build professional websites.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-enjoy&#34;&gt;What I enjoy?&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Building beautiful websites&lt;/li&gt;&#xA;&lt;li&gt;Engaging in social media groups&lt;/li&gt;&#xA;&lt;li&gt;Planting trees &amp;amp; Gardening&lt;/li&gt;&#xA;&lt;li&gt;Learning new skills&lt;/li&gt;&#xA;&lt;li&gt;Volunteering for good causes&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;technologies-i-use&#34;&gt;Technologies I use&lt;/h2&gt;&#xA;&lt;p&gt;To build websites, I mostly work with HTML, CSS &amp;amp; JavaScript. For markerting, I use LinkedIn Sales Navigator and Meta Bussiness Suit, though I love fediverse the most.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Ethan Timothy</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Ethan Timothy</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 26 Apr 2026 19:36:03 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Helping verify legit Ugandan Mastodon users</title>
+				<link>http://localhost:1313/posts/uganda-verrified/</link>
+				<pubDate>Sun, 26 Apr 2026 19:36:03 +0100</pubDate>
+				<guid>http://localhost:1313/posts/uganda-verrified/</guid>
+				<description>&lt;p&gt;Since, early this year, there have been lots of complains on the fediverse(mastodon), where more than one person complained due to constant demand for money after connecting with Ugandan farmers on mastodon.&lt;/p&gt;&#xA;&lt;p&gt;This annoys to see that even genuine people, orgs and projects can be all grouped under the scam umbrella, so thats why I opt to start building the Uganda-Verrified platform.&lt;/p&gt;&#xA;&lt;p&gt;Stay tuned, I will let you know once its out!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Building the TreeMinded website</title>
+				<link>http://localhost:1313/posts/maintaning-treeminded-website/</link>
+				<pubDate>Mon, 30 Mar 2026 19:36:03 +0100</pubDate>
+				<guid>http://localhost:1313/posts/maintaning-treeminded-website/</guid>
+				<description>&lt;p&gt;Boom! This was my first website, I am so proud of them, for trusting me to deliver there website.&#xA;I currently still maintain the website.&lt;/p&gt;&#xA;&lt;p&gt;Do you want to check them out? 👉 &lt;a href=&#34;https://treeminded.nl&#34;&gt;https://treeminded.nl&lt;/a&gt;. They will take care of your trees or even the entire forest.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Maintaining the Kastklimmers website</title>
+				<link>http://localhost:1313/posts/maintaing-kast-klimmers-website/</link>
+				<pubDate>Wed, 11 Mar 2026 19:36:03 +0100</pubDate>
+				<guid>http://localhost:1313/posts/maintaing-kast-klimmers-website/</guid>
+				<description>&lt;p&gt;I am currently building &amp;amp; maintaining the Kastklimmers website (&lt;a href=&#34;https://kastklimmers.nl&#34;&gt;https://kastklimmers.nl&lt;/a&gt;). If your interested in tree climbers, please give them a call.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Marketing at Game Limiter</title>
+				<link>http://localhost:1313/posts/marketing-at-gamelimiter/</link>
+				<pubDate>Tue, 03 Mar 2026 19:36:03 +0100</pubDate>
+				<guid>http://localhost:1313/posts/marketing-at-gamelimiter/</guid>
+				<description>&lt;p&gt;I am currently working with the GameLimiter markerting team. I am using the LinkedIn and Facebook to boost their online visibility.&lt;/p&gt;&#xA;&lt;p&gt;I believe in their vision i.e. Controlled Gaming really matters. Its not by force, but with daily routines and descipline.&lt;/p&gt;&#xA;&lt;p&gt;I also believe life behind screens in beautiful 🌱&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Building the EHS website</title>
+				<link>http://localhost:1313/posts/extreme-high-school-website/</link>
+				<pubDate>Sat, 28 Feb 2026 19:36:03 +0100</pubDate>
+				<guid>http://localhost:1313/posts/extreme-high-school-website/</guid>
+				<description>&lt;p&gt;For the betterness of Extreme High School Namayumba, my former school that helped me aquire free education, I am opting to volunteer and build them a good quality professional responsive website.&lt;/p&gt;&#xA;&lt;p&gt;Wanna know more about this EHS, I got you sorted, find thir website here soon&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Growing the VoedselbosKabouters Mastodon activity</title>
+				<link>http://localhost:1313/posts/voedselboskabouters-mastodon/</link>
+				<pubDate>Sat, 19 Apr 2025 19:36:03 +0100</pubDate>
+				<guid>http://localhost:1313/posts/voedselboskabouters-mastodon/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Managing Squads B.V. Social Pages</title>
+				<link>http://localhost:1313/posts/squads-bv-mastodon/</link>
+				<pubDate>Sat, 11 Jan 2025 19:36:03 +0100</pubDate>
+				<guid>http://localhost:1313/posts/squads-bv-mastodon/</guid>
+				<description>&lt;p&gt;I am currently managing Squads BV&amp;rsquo;s Mastodon and Reddit presence, engaging with communities, growing brand awareness, and building meaningful connections with users.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Leading the SSN Project</title>
+				<link>http://localhost:1313/posts/sustainable-schools-network/</link>
+				<pubDate>Mon, 01 Jan 2024 19:36:03 +0100</pubDate>
+				<guid>http://localhost:1313/posts/sustainable-schools-network/</guid>
+				<description>&lt;p&gt;The Sustainable Schools Network is a Community Based Organisation in Central Uganda, focusing on promoting sustainable agriculture, environmental conservation and ecological literacy in Schools.&lt;/p&gt;&#xA;&lt;p&gt;Through the SSN-Project, I and my partners-in-crime do visit schools and hold a number of programs.&lt;/p&gt;&#xA;&lt;p&gt;Please read about them on their &lt;a href=&#34;https://mas.to/@sustainable_schools&#34;&gt;Mastodon Page&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;I am Ethan Timothy, a Social Media Specialist &amp;amp; Frontend Developer from Kiboga, Uganda. I manage media accounts and also build professional websites.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-enjoy&#34;&gt;What I enjoy?&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Building beautiful websites&lt;/li&gt;&#xA;&lt;li&gt;Engaging in social media groups&lt;/li&gt;&#xA;&lt;li&gt;Planting trees &amp;amp; Gardening&lt;/li&gt;&#xA;&lt;li&gt;Learning new skills&lt;/li&gt;&#xA;&lt;li&gt;Volunteering for good causes&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;technologies-i-use&#34;&gt;Technologies I use&lt;/h2&gt;&#xA;&lt;p&gt;To build websites, I mostly work with HTML, CSS &amp;amp; JavaScript. For markerting, I use LinkedIn Sales Navigator and Meta Bussiness Suit, though I love fediverse the most.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Contact</title>
+				<link>http://localhost:1313/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/contact/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
