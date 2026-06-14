@@ -26,58 +26,8 @@
       required
     ></textarea>
   </div>
-  <div
-    class="cf-turnstile"
-    data-sitekey="{{ .Site.Params.turnstileSiteKey }}"
-    data-theme="auto"
-  ></div>
   <button type="submit" class="form-submit">{{ i18n "contactSend" }}</button>
   <p class="form-status" id="form-status"></p>
   <p class="form-rate-limit-notice">{{ i18n "contactRateLimitNotice" }}</p>
 </form>
-<!-- <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script>
-document.getElementById("contact-form").addEventListener("submit", async function(e) {
-  e.preventDefault();
-  const statusEl = document.getElementById("form-status");
-  const submitBtn = this.querySelector(".form-submit");
-  const turnstileToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
-  if (!turnstileToken) {
-    statusEl.textContent = {{ i18n "contactCaptcha" | jsonify }};
-    statusEl.className = "form-status form-error";
-    return;
-  }
-  submitBtn.disabled = true;
-  statusEl.textContent = "";
-  statusEl.className = "form-status";
-  try {
-    const res = await fetch("/api/send", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({
-        name: this.name.value,
-        email: this.email.value,
-        message: this.message.value,
-        turnstileToken: turnstileToken
-      })
-    });
-    if (res.ok) {
-      statusEl.textContent = {{ i18n "contactSuccess" | jsonify }};
-      statusEl.classList.add("form-success");
-      this.reset();
-      turnstile.reset();
-    } else if (res.status === 429) {
-      statusEl.textContent = {{ i18n "contactRateLimit" | jsonify }};
-      statusEl.classList.add("form-error");
-    } else {
-      statusEl.textContent = {{ i18n "contactError" | jsonify }};
-      statusEl.classList.add("form-error");
-    }
-  } catch {
-    statusEl.textContent = {{ i18n "contactError" | jsonify }};
-    statusEl.classList.add("form-error");
-  }
-  submitBtn.disabled = false;
-});
-</script> -->
 {{ end }} {{ define "cornerAvatar" }}{{ end }}

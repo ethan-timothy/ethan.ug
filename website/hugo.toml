@@ -7,7 +7,6 @@ disableHugoGeneratorInject = true
 
 [params]
   avatar = "/images/avatar.jpeg"
-  turnstileSiteKey = "0x4AAAAAACZflXFsMFFLwiVa"
   author = "Ethan Timothy"
   images = ["/images/avatar.jpg"]
 
