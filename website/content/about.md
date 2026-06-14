@@ -22,5 +22,5 @@ To build websites, I mostly work with HTML, CSS & JavaScript. For markerting, I 
 
 - "_Life is hard, but full of joy, that comes from conquering difficulties_", by Segawa Ephraim.
 - "_Do things fast, but don't rush_" by Iwein Fuld
-- "_Always remember the people that stood with you in rain when they hard the option to shelter_" by Segawa Ephraim
+- "_Always remember the people that stood with you in rain when they had the option to shelter_" by Segawa Ephraim
 - "_A cat that wants to be a lion must lose its appetite for rats_", by Nuwagaba Gift

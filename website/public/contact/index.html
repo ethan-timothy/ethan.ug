@@ -55,69 +55,40 @@
 <div class="page-header">
   <h1>Contact</h1>
 </div>
-<form class="contact-form" id="contact-form">
+<form
+  class="contact-form"
+  id="contact-form"
+  action="https://formspree.io/f/meewpvza"
+  method="POST"
+>
   <div class="form-group">
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" maxlength="100" required>
+    <input type="text" id="name" name="name" maxlength="100" required />
   </div>
   <div class="form-group">
     <label for="email">Email</label>
-    <input type="email" id="email" name="email" maxlength="254" required>
+    <input type="email" id="email" name="email" maxlength="254" required />
   </div>
   <div class="form-group">
     <label for="message">Message</label>
-    <textarea id="message" name="message" rows="6" maxlength="5000" required></textarea>
+    <textarea
+      id="message"
+      name="message"
+      rows="6"
+      maxlength="5000"
+      required
+    ></textarea>
   </div>
-  <div class="cf-turnstile" data-sitekey="0x4AAAAAACZflXFsMFFLwiVa" data-theme="auto"></div>
+  <div
+    class="cf-turnstile"
+    data-sitekey="0x4AAAAAACZflXFsMFFLwiVa"
+    data-theme="auto"
+  ></div>
   <button type="submit" class="form-submit">Send message</button>
   <p class="form-status" id="form-status"></p>
   <p class="form-rate-limit-notice">You can send up to 3 messages per 24 hours.</p>
 </form>
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script>
-document.getElementById("contact-form").addEventListener("submit", async function(e) {
-  e.preventDefault();
-  const statusEl = document.getElementById("form-status");
-  const submitBtn = this.querySelector(".form-submit");
-  const turnstileToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
-  if (!turnstileToken) {
-    statusEl.textContent = "\"Please complete the verification.\"";
-    statusEl.className = "form-status form-error";
-    return;
-  }
-  submitBtn.disabled = true;
-  statusEl.textContent = "";
-  statusEl.className = "form-status";
-  try {
-    const res = await fetch("/api/send", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({
-        name: this.name.value,
-        email: this.email.value,
-        message: this.message.value,
-        turnstileToken: turnstileToken
-      })
-    });
-    if (res.ok) {
-      statusEl.textContent = "\"Message sent! I'll get back to you soon.\"";
-      statusEl.classList.add("form-success");
-      this.reset();
-      turnstile.reset();
-    } else if (res.status === 429) {
-      statusEl.textContent = "\"You have reached the limit of 3 messages per 24 hours. Please try again later.\"";
-      statusEl.classList.add("form-error");
-    } else {
-      statusEl.textContent = "\"Something went wrong. Please try again later.\"";
-      statusEl.classList.add("form-error");
-    }
-  } catch {
-    statusEl.textContent = "\"Something went wrong. Please try again later.\"";
-    statusEl.classList.add("form-error");
-  }
-  submitBtn.disabled = false;
-});
-</script>
+
 
 </main>
 <footer class="site-footer">
