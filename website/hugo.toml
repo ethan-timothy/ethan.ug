@@ -1,4 +1,4 @@
-baseURL = 'https://raaijmakers.it/'
+baseURL = 'https://ethan.ug/'
 theme = 'raaijmakers'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
@@ -13,8 +13,8 @@ disableHugoGeneratorInject = true
 
   [languages]
   [languages.en]
-    languageCode = 'en-us'
-    languageName = 'English'
+    locale = 'en-us'
+    label = 'English'
     weight = 1
     title = 'Ethan Timothy'
     [languages.en.params]
@@ -32,29 +32,6 @@ disableHugoGeneratorInject = true
       weight = 2
     [[languages.en.menu.main]]
       name = "About"
-      url = "/about/"
-      weight = 3
-
-  [languages.nl]
-    languageCode = 'nl'
-    languageName = 'Nederlands'
-    weight = 2
-    title = 'Raaijmakers'
-    [languages.nl.params]
-      description = "Persoonlijke blog en website van Kevin Raaijmakers, een IT-enthousiasteling uit 's-Hertogenbosch, Nederland. Over webontwikkeling, self-hosting en domotica."
-    [languages.nl.params.profileMode]
-      title = "Kevin Raaijmakers"
-      subtitle = "IT-enthousiasteling uit 's-Hertogenbosch, Nederland. Ik bouw graag dingen en zoek uit hoe ze werken."
-    [[languages.nl.menu.main]]
-      name = "Home"
-      url = "/"
-      weight = 1
-    [[languages.nl.menu.main]]
-      name = "Blog"
-      url = "/posts/"
-      weight = 2
-    [[languages.nl.menu.main]]
-      name = "Over mij"
       url = "/about/"
       weight = 3
 

@@ -22,9 +22,9 @@
       <nav class="footer-nav">
         {{ range .AllTranslations -}}
         {{ if eq .Language.Lang $.Language.Lang -}}
-        <span class="lang-active">{{ .Language.LanguageName }}</span>
+        <span class="lang-active">{{ .Language.Label }}</span>
         {{ else -}}
-        <a href="{{ .Permalink }}" data-lang="{{ .Language.Lang }}" onclick='document.cookie="lang_pref={{ .Language.Lang }};max-age=31536000;path=/;samesite=lax"'>{{ .Language.LanguageName }}</a>
+        <a href="{{ .Permalink }}" data-lang="{{ .Language.Lang }}" onclick='document.cookie="lang_pref={{ .Language.Lang }};max-age=31536000;path=/;samesite=lax"'>{{ .Language.Label }}</a>
         {{ end -}}
         {{ end }}
       </nav> -->
