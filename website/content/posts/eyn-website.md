@@ -1,7 +1,7 @@
 +++
 date = '2026-07-01T19:36:03+01:00'
 draft = false
-title = 'Maintaining the Kastklimmers website'
+title = 'Building the EYN Website'
 description = 'Just launched the Eco Youths Network Website'
 +++
 
