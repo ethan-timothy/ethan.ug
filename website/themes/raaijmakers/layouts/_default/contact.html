@@ -5,9 +5,14 @@
 <form
   class="contact-form"
   id="contact-form"
-  action="https://formspree.io/f/meewpvza"
+  action="https://api.web3forms.com/submit"
   method="POST"
 >
+  <input
+    type="hidden"
+    name="access_key"
+    value="c7822f60-3bed-4441-a2db-12c06ab4a8a7"
+  />
   <div class="form-group">
     <label for="name">{{ i18n "contactName" }}</label>
     <input type="text" id="name" name="name" maxlength="100" required />
